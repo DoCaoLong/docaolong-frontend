@@ -323,6 +323,9 @@ td {
 }
 
 @media screen and (max-width: 800px) {
+    body {
+        font-size: 12px;
+    }
     .app {
         padding: 20px;
     }
@@ -335,6 +338,9 @@ td {
     .mid-item {
         align-items: center;
     }
+    .header .text span {
+        font-size: 12px;
+    }
     .footer {
         display: flex;
         width: 100%;
@@ -346,5 +352,24 @@ td {
         padding-right: 40px;
         padding-top: 25px;
         padding-bottom: 50px;
+    }
+    table,
+    th,
+    td {
+        /* border-bottom: 2px solid #ccc; */
+        border-collapse: collapse;
+        text-transform: uppercase;
+        line-height: 18pxy;
+        /* width: 200px; */
+        /* width: 500px; */
+    }
+    table {
+        height: 100%;
+    }
+    th,
+    td {
+        padding: 15px;
+        text-align: center;
+        font-size: 12px;
     }
 }
